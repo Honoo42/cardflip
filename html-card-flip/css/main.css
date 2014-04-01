@@ -1,0 +1,17 @@
+.portfolio-item {
+	position: relative;
+	-webkit-transition: -webkit-transform;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-duration: 3s;
+}
+.primary {
+	display: block;
+	position: absolute;
+}
+.secondary {
+	position: relative;
+	-webkit-transform: rotateY(180deg);
+}
+.portfolio-item:hover {
+	-webkit-transform: rotateY(180deg);
+}
